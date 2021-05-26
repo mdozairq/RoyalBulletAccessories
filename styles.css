@@ -1,0 +1,71 @@
+
+
+#title{
+	background-image: url("h-img.jpg");
+	background-size: cover;
+	background-color: black;
+	text-align: left;
+	height: 720px;
+
+}
+.pb{
+	margin-left: 30px;
+	padding: 100px 0px 0px 40px;
+}
+h1{ 
+	 font-family: 'Montserrat, sans-serif';
+
+	 font-size: 5rem; 
+	 font-weight: 900;
+	 color: white;
+	 
+	}
+h3{
+	font-family: "Montserrat-Bold, sans-serif";
+}
+
+h2{
+	font-family: Montserrat-Bold";
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.sub-title{
+	color: #e6c4c0;
+	font-family: 'Caudex', serif;
+}
+
+#features{
+	padding: 7% 14%;
+}
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+
+p{
+	color: #8f8f8f;
+}
+
+.icon{
+	margin-bottom: 1rem;
+}
+
+.icon:hover{
+	color: #687980;
+}
+
+.Parts-image{
+	width: 50%;
+	height: 50%;
+	margin: 20px 20px 50px 20px;
+}
+
+#testimonials{
+	padding: 7%,20%;
+	text-align: left;
+	background-color: black;
+	color: #fff;
+	padding-top: 3%;
+}
+
