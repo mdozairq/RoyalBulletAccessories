@@ -85,3 +85,55 @@ p{
 	text-align: center;
 	padding-bottom: 3%;
  }
+
+ #pricing{
+	padding: 100px;
+	text-align: center;
+}
+
+.card{
+	padding: 3% 2%;
+}
+
+#Gallery{
+	text-align: center;
+	padding: 5% 10%;
+	background-color: black;
+}
+
+.Gallery-title{
+	color: #fff;
+	font-size: 3rem;
+	padding-bottom: 30px;
+}
+
+#map{
+	color: #fff;
+	font-size: 3rem;
+	text-align: center;
+	padding-bottom: 30px;	
+}
+
+.mapouter{
+	position:relative;
+	text-align:right;
+	width:600px;
+	height:400px;
+}
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	width:600px;
+	height:400px;
+}
+.gmap_iframe {
+	width:600px!important;
+	height:400px!important;
+}
+
+.follow-route{
+	padding: 5% 10%;
+	color: black;
+}
+
