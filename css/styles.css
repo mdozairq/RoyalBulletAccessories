@@ -1,0 +1,225 @@
+
+
+#title{
+	background-image: url("h-img.jpg");
+	background-size: cover;
+	background-color: black;
+	text-align: left;
+	height: 720px;
+
+}
+.pb{
+	margin-left: 30px;
+	padding: 100px 0px 0px 20px;
+}
+h1{ 
+	 font-family: 'Montserrat, sans-serif';
+
+	 font-size: 5rem; 
+	 font-weight: 900;
+	 color: white;
+	 
+	}
+h3{
+	font-family: "Montserrat-Bold, sans-serif";
+}
+
+h2{
+	font-family: Montserrat-Bold";
+	font-size: 3rem;
+	margin-bottom: 20px;
+	margin-left: 5%;
+}
+
+.sub-title{
+	color: #e6c4c0;
+	font-family: 'Caudex', serif;
+}
+
+#features{
+	padding: 7% 14%;
+}
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+
+p{
+	color: #8f8f8f;
+}
+
+.icon{
+	margin-bottom: 1rem;
+}
+
+.icon:hover{
+	color: #687980;
+}
+
+.Parts-image{
+	width: 50%;
+	height: 50%;
+	margin: 20px 20px 50px 20px;
+}
+
+#testimonials{
+	padding: 7%,20%;
+	text-align: left;
+	background-color: black;
+	color: #fff;
+	padding-top: 3%;
+}
+
+.testimonial-para{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+ .Authorize-logo{
+ 	width: 15%;
+	margin: 20px 20px 50px 20px;
+ }
+
+ #press{
+ 	background-color: black;
+	text-align: center;
+	padding-bottom: 3%;
+ }
+
+ #pricing{
+	padding: 100px;
+	text-align: center;
+}
+
+.card{
+	padding: 3% 2%;
+}
+
+#Gallery{
+	text-align: center;
+	padding: 5% 10%;
+	background-color: black;
+}
+
+.Gallery-title{
+	color: #fff;
+	font-size: 3rem;
+	padding-bottom: 30px;
+}
+
+#map{
+	padding: 7%,20%;
+	text-align: left;
+	color: black;
+	font-size: 3rem;
+	text-align: center;
+	padding-bottom: 30px;	
+}
+
+.mapouter{
+	padding: 5% 10%;
+	margin-left: 6%;
+	position:relative;
+	text-align:right;
+	width: 500px;
+	height: 400px;
+}
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	width:500px;
+	height:400px;
+}
+.gmap_iframe {
+	width:500px!important;
+	height:400px!important;
+}
+
+/*.follow-route{
+	padding: 5% 10%;
+	color: black;
+}*/
+
+/*.visitor-Information{
+	width:500px;
+	height:400px;
+	size: 20%;
+}*/
+
+label{
+	font-size: 20px;
+	text-align: left;
+}
+
+#cta{
+	background-color: black;
+	padding: 7%,20%;
+	text-align: left;
+	color: #fff;
+}
+.store-img{
+	height: 300px;
+	width: 550px;
+}
+
+h3.follow-route{
+	padding: 15%, 5%;
+}
+
+.p-i{
+	padding: 3% 4% 0% 5%;
+	margin-left: 0;
+	color: #fff;
+	font-size: 30px;
+	line-height: 3rem;
+}
+
+h4{
+	font-family: Montserrat;
+	color: #fff;
+	margin-left: 20px;
+	text-align: center;
+}
+
+
+.w{
+	font-family: Montserrat;
+	color: #8f8f8f;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.p-e{
+	color: #fff;
+	line-height: 1.2rem;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.v-mb-4{
+	padding: 5% 8%;
+	margin-left: 10%;
+}
+
+#footer{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #8f8f8f;
+}
+
+.social{
+	padding: 12% 1%;
+	color: black;
+}
+
+.social:hover{
+	color: #fff;
+}
+
+.cpr{
+	padding: 10px 0px;
+	line-height: 3rem;
+	color: #fff;
+}
