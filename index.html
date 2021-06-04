@@ -14,7 +14,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
   <!-- Font Icon Link -->
@@ -38,13 +38,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
         <li class="nav item">
-            <a class="nav-link" href="">Contact</a>
+            <a class="nav-link" href="#features">Services</a>
         </li>
         <li class="nav item">
-            <a class="nav-link" href="">Pricing</a>
+            <a class="nav-link" href="#pricing">Plans</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Gallery">Gallery</a>
         </li>
         <li class="nav item">
-            <a class="nav-link" href="">Download</a>
+            <a class="nav-link" href="#cta">Contact</a>
         </li>
     </ul>
     </div>
@@ -103,16 +106,16 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="row">
-      <div class="feature-box col-lg-4">
-        <img class="Parts-image" src="headLight.png" alt="head-light">
+      <div class="feature-box col-lg-4 col-md-6">
+        <img class="Parts-image" src="images/headLight.png" alt="head-light">
         <h4>Head Lights</h4>
       </div>  
-      <div class="feature-box col-lg-4">
-        <img  class="Parts-image" src="helmet.jpg" alt="helmet">
+      <div class="feature-box col-lg-4 col-md-6">
+        <img  class="Parts-image" src="images/helmet.jpg" alt="helmet">
         <h4>Helmet</h4>
       </div>  
       <div class="feature-box col-lg-4">
-        <img  class="Parts-image" src="rim.png" alt="rim">
+        <img  class="Parts-image" src="images/rim.png" alt="rim">
         <h4>Alloy Wheels</h4>
       </div>  
     </div>
@@ -120,16 +123,16 @@
     </div>
     <div class="carousel-item">
           <div class="row">
-      <div class="feature-box col-lg-4">
-        <img class="Parts-image" src="seat.jpg" alt="seat">
+      <div class="feature-box col-lg-4 ">
+        <img class="Parts-image" src="images/seat.jpg" alt="seat">
         <h4>Seat</h4>
       </div>  
-      <div class="feature-box col-lg-4">
-        <img  class="Parts-image" src="silencer.jpg" alt="Silencer">
+      <div class="feature-box col-lg-4 ">
+        <img  class="Parts-image" src="images/silencer.jpg" alt="Silencer">
         <h4>Silencer</h4>
       </div>  
       <div class="feature-box col-lg-4">
-        <img  class="Parts-image" src="legGuard.jpg" alt="Leg Guard">
+        <img  class="Parts-image" src="images/legGuard.jpg" alt="Leg Guard">
         <h4>Leg Guard</h4>
      </div>  
     </div>
@@ -138,15 +141,15 @@
       <div class="carousel-item">
           <div class="row">
       <div class="feature-box col-lg-4">
-        <img class="Parts-image" src="LuggageBox.jpg" alt="LuggageBox">
+        <img class="Parts-image" src="images/LuggageBox.jpg" alt="LuggageBox">
         <h4>Luggage Box</h4>
       </div>  
       <div class="feature-box col-lg-4">
-        <img  class="Parts-image" src="Mirror.jpg" alt="Mirror">
+        <img  class="Parts-image" src="images/Mirror.jpg" alt="Mirror">
         <h4>Mirror</h4>
       </div>  
       <div class="feature-box col-lg-4">
-        <img  class="Parts-image" src="Horn.jpg" alt="Horn">
+        <img  class="Parts-image" src="images/Horn.jpg" alt="Horn">
         <h4>Horn</h4>
       </div>  
     </div>
@@ -192,7 +195,7 @@
         <h3>Spare Parts</h3>
       </div>
       <div class="card-body">
-        <h2>mechanic charge Free</h2>
+        <h2>Mechanic charges Free</h2>
         <p>All brand genuine parts Available!</p>
         <p>10 Messages Per Day</p>
         <p>Unlimited App Usage</p>
@@ -222,7 +225,7 @@
         <h3>Professional Modification</h3>
       </div>
       <div class="card-body">
-        <h2>$99 / mo</h2>
+        <h2>min. 10000 INR</h2>
         <p>Pirority Listing</p>
         <p>Unlimited Matches</p>
         <p>Unlimited Messages</p>
@@ -286,10 +289,80 @@
 <!-- Map Route -->
 
 <section id="map">
-  <h3 class="follow-route">Follow the Route!</h3>
-  <div class="mapouter">
-    <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Bullet Royal Accessories Nathnagar Block Road, Tatarpur, Bhagalpur, Bihar 812002&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fridaynightfunkin.net/">Friday Night Funkin Download</a></div>
+  <div class="row">
+    <div class=" feature-box col-lg-6">
+      <h3 class="follow-route">Follow the Route!</h3>
+      <div class="mapouter">
+        <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Bullet Royal Accessories Nathnagar Block Road, Tatarpur, Bhagalpur, Bihar 812002&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+      </div>
+    </div>
+    <div class="feature-box col-lg-6">
+      <h3 class="v-i">Visitors Infromation</h3>
+      <section class="v-mb-4">
+
+          <!--Section heading-->
+          <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-9 mb-md-0 mb-5">
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                      <!--Grid row-->
+                      <div class="row">
+
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                <label for="name" class="">Your name</label>
+                                  <input type="text" id="name" name="name" class="form-control">
+                                  
+                              </div>
+                          </div>
+                          <!--Grid column-->
+
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                <label for="email" class="">Your email</label>
+                                  <input type="text" id="email" name="email" class="form-control">
+                                  
+                              </div>
+                          </div>
+                          <!--Grid column-->
+
+                      </div>
+                      <!--Grid row-->
+
+                      <!--Grid row-->
+                      <div class="row">
+
+                          <!--Grid column-->
+                          <div class="col-md-12">
+
+                              <div class="md-form">
+                                <label for="message">Your message</label>
+                                  <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                  
+                              </div>
+
+                          </div>
+                      </div>
+                      <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
   </div>
+</div>
 </section>
 
 
@@ -298,9 +371,22 @@
 
   <section id="cta">
 
-    <h3>Proprieter Informations</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h2 class="p-i">Proprieter Informations</h2>
+    <div class="row">
+      <div class="feature-box col-lg-6">
+        <img class="store-img" src="images/store.jfif" alt="store-image">
+      </div>
+      <div class="feature-box col-lg-6">
+        <h4 class="w">Proprieter</h4>
+        <p class="p-e">MR. A ALI</p>
+        <h4 class="w">Phone Number</h4>
+        <p class="p-e">+(91)9955690159 </p>
+        <p p class="p-e">+(91)8340310034</p>
+        <h4 class="w">Address</h4>
+        <p class="p-e">HP Petrol Pump, Near Muslim High School,Tatarpur, Bhagalpur-812002</p>
+        <p class="p-e">New Branch: Jila Parishad Market, Gandhi Chowk, Banka</p>
+      </div>
+    </div>
 
   </section>
 
@@ -308,8 +394,13 @@
   <!-- Footer -->
 
   <footer id="footer">
+    <a class="social" href=""><i class="fab fa-twitter"></i></a>
+    <a class="social" href=""><i class="fab fa-facebook-f"></i></a>
+    <a class="social" href="https://instagram.com/bullet_royal_accessories"><i class="fab fa-instagram"></i></a>
+    <a class="social" href=""><i class="fas fa-envelope"></i></a>
 
-    <p>© Copyright 2018 TinDog</p>
+
+    <p class="cpr">© Copyright 2021 BulletRoyalAccessories</p>
 
   </footer>
 
